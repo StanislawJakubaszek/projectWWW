@@ -1,0 +1,104 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;    
+    background: rgb(24, 7, 119) 
+    url(../graphics/background.jpg)
+    no-repeat
+    top center
+    fixed;
+background-size: cover;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    text-align: left;
+    padding: 15px 0px 15px 40px;
+    color: #d6c100d2;
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000d7;
+}
+
+.menu{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    margin: 0;
+    padding: 15px 0px 15px 40px;
+}
+
+.menu li{
+    list-style-type: none;
+    padding: 20px 30px;
+    border-right: 1px solid #d6c100d2;
+    border-left: 1px solid #dac400d2;
+}
+.menu li:hover {
+        background-color: #0000004b;
+}
+
+.container{
+    font-size: 18px;
+    line-height: 1;
+    max-width: 1000px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.815);
+    padding: 40px 75px 40px 90px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    border-radius: 4px;
+}
+
+.container h1{
+    font-size: 24px;
+    line-height: 2;
+}
+
+/* MEDIA QUERIES */
+@media all and (max-width: 768px){
+.logo{
+    font-size: 30px;
+}
+
+.menu{
+    justify-content: space-around;
+    text-align: center;
+    }
+.menu li{
+    flex: 1;
+    text-align: center;
+        }
+}
+@media all and (max-width: 576px){
+.logo{
+        font-size: 18px;
+        padding: 10px 0px 10px 40px;
+    }
+    .top{
+        align-items: center;
+        flex-direction: column;
+    }
+.menu{
+    flex-direction: column;
+    }
+.menu li{
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #c7c4004d;
+    padding: 10px 0;
+    } 
+}

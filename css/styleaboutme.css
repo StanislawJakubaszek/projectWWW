@@ -1,0 +1,45 @@
+.button{
+        background-color: #c90000d3; 
+        padding: 10px;
+        text-align: center;
+        display: block;
+        font-size: 25px;
+        font-family:'Dancing Script', cursive;
+        margin: 0 auto;
+        align-self: center;
+        max-width: 400px;    
+        border-radius: 4px;
+}
+
+p{
+        padding-top: 20px;
+}
+
+.left{
+        text-align: left;
+        clear: right;
+}
+
+.right{
+        text-align: right;
+        clear: left;
+}
+
+.center{
+        text-align: center;
+        clear: right;
+}
+
+.imgr img{
+        float: right;
+        max-height: 300px;
+        max-width: auto;
+        border-radius: 4px;
+}
+
+.imgl img{
+        float: left;
+        max-height: 300px;
+        max-width: auto;
+        border-radius: 4px;
+}
